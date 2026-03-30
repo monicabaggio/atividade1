@@ -11,7 +11,7 @@ img {
   width: 100%;
   height: 200px;
   object-fit: cover;
-  /* display: block; */
+
 }
 
 @media (min-width: 768px){
@@ -33,8 +33,7 @@ img {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
-
-    .content{
+    .content2{
         display: flex;
         justify-content: space-around;
     }
